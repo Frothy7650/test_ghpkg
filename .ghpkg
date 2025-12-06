@@ -1,6 +1,5 @@
 {
   "name": "test_ghpkg",
-  "version": "1",
   "description": "Test package for ghpkg",
   "clone_command": "git clone ",
   "clone_url": "https://github.com/Frothy7650/test/",
