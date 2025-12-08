@@ -3,8 +3,13 @@
   "description": "Test package for ghpkg",
   "clone_command": "git clone ",
   "clone_url": "https://github.com/Frothy7650/test/",
+<<<<<<< HEAD
   "build": "g++ --std=c++23 \"$temp/test_ghpkg/main.cpp\" -o \"$temp/test_ghpkg/test_ghpkg\"",
   "binary_name": "test_ghpkg",
+=======
+  "build": "g++ --std=c++23 $temp/test_ghpkg/main.cpp -o $temp/test_ghpkg/test_ghpkg",
+  "binary_name": "test_ghpkg.exe",
+>>>>>>> d48425d (Fcked around)
   "binary_dir": "",
   "dependencies": ["g++"],
   "os": ["linux", "macos", "windows"]
