@@ -5,6 +5,8 @@
   "clone_url": "https://github.com/Frothy7650/test/",
   "build": "g++ --std=c++23 $temp/test_ghpkg/main.cpp -o $temp/test_ghpkg/test_ghpkg",
   "binary_name": "test_ghpkg",
+  "post": "echo \"Hello world\"",
+  "binary_name": "test_ghpkg.exe",
   "binary_dir": "",
   "dependencies": ["g++"],
   "os": ["linux", "macos", "windows"]
